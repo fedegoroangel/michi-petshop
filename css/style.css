@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&family=Ubuntu:wght@500&display=swap');
+/*roboto , ubuntu, pangolin*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header{
+    background-color: #191919;
+    font-family: 'roboto';
+
+
+}
+
+nav{
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #191919;
+}
+
+nav ul li{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/*main*/
+
+.portada{
+    font-family: 'roboto';
+    background-color: #272525;
+    color: antiquewhite;
+    position: relative;
+
+}
+
+.portada img{
+    display: inline-block;
+    width: 100%;
+    padding: 49px;
+    margin-top: 80px;
+}
+
+.portada h1{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.portada p{
+    margin: 10px 0px;
+}
+.portada-contenedor{
+    display: inline-block;
+    width: 99%;
+    padding: 20px;
+    position: absolute;
+    background-color: #272525;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.portada-contenedor a{
+    text-decoration: none;
+    color: antiquewhite;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline;
+    padding: 3px;
+    font-size: 20px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+}
+
+.portada-contenedor a:hover{
+    background-color: antiquewhite;
+    color: #191919;
+    transition: 1s;
+}
+/*after1 bach ground fijo*/
+
+.aft1-bg1{
+    background-image: url(../img/cat-2495495_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 80px;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.aft1-bg1 h2{
+    margin: 20px 0px;
+}
+
+.aft1-bg2 a:hover{
+    background-color: antiquewhite;
+    color: #272525;
+    transition: 1s;
+}
+
+.aft1-bg1 p{
+    margin: 20px 0px;
+}
+
+.aft1-bg1 a:hover{
+    background-color: antiquewhite;
+    color: #272525;
+    transition: 1s;
+}
+.cards{
+    margin: 30px 0px;
+    text-align: center;
+
+}
+
+.card-producto{
+    display: inline-block;
+    width: 30%;
+}
+
+.card-producto p, .card-producto button{
+    padding: 10px;
+}
+
+.button{
+    border: 2px solid antiquewhite;
+    font-weight: bold;
+    background: #272525;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: antiquewhite;
+    color: #272525;
+
+}
+
+.aft1-bg2{
+    background-image: url(../img/entretenimiento-perro1.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 80px;
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: right;
+}
+
+.button1{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    display: inline;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.aft1-bg2 h2{
+    margin: 20px 0px;
+}
+
+.aft1-bg2 p{
+    margin: 20px 0px;
+}
+
+/*footer*/
+
+footer{
+    background-color:#191919;
+    text-decoration: none;
+    padding: 30px 0;
+    font-family: 'roboto';
+}
+
+
+footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a{
+    color: antiquewhite;
+}
+
+.home {
+    display: inline-block;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.socials{
+    display: inline-block;
+
+}
+.socials ul li:hover{
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+.socials ul li a:hover{
+    color: #272525;
+    transition: 1s;
+}
+
+.fin{
+    text-align: center;
+    align-content: center;
+    color: antiquewhite;
+    margin-top: 20px;
+}
+
+.grilla{
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'area1 area2 area3'
+    'area4 area5 area6'
+    'area7 area8 area9';
+    gap: 15px;
+}
+
+.caja{
+    width: 95%;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 5px 10px 10px #272525;
+}
+
+.aft1-bg3{
+    background-image: url(../img/casa-perro-fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 100px;
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*carrusel*/
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-item img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .home{
+        display:none;
+    }
+    .socials ul li{
+        display: block;
+        flex-direction: column;
+        margin: 10px 220px;
+    }
+    footer{
+        align-items: center;
+    }
+
+    .cards{
+        display: none;
+    }
+
+    .grilla{
+        text-align: center;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'area1 area2'
+        'area3 area4'
+        'area5 area6';
+        gap: 15px;
+    }
+}
