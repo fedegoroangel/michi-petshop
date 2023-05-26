@@ -209,7 +209,6 @@ footer ul{
 }
 
 footer li{
-    border: 2px solid antiquewhite;
     border-radius: 5px;
     margin: 10px;
     display: inline;
@@ -219,17 +218,19 @@ footer li{
 }
 
 footer a{
+    text-decoration: none;
     color: antiquewhite;
 }
 
 .home {
-    display: inline-block;
+    display: block;
     width: 20%;
     margin-left: 30px;
 }
 
 .socials{
-    display: inline-block;
+    text-align: center;
+    display: block;
 
 }
 .socials ul li:hover{
@@ -346,12 +347,14 @@ footer a{
         display:none;
     }
     .socials ul li{
-        display: block;
+        display: grid;
+        justify-content: center;
         flex-direction: column;
-        margin: 10px 220px;
+        margin: 10px opx;
     }
     footer{
         align-items: center;
+        text-align: center;
     }
 
     .cards{
@@ -368,5 +371,12 @@ footer a{
         'area3 area4'
         'area5 area6';
         gap: 15px;
+    }
+    main section.portada img{
+        display: none;
+    }
+
+    .aft1-bg1{
+        padding-top: 250px;
     }
 }
