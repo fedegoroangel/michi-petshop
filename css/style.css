@@ -293,6 +293,49 @@ footer a{
 
 /*formulario*/
 
+#form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #272525;
+    justify-items: center;
+}
+
+#form div{
+    margin:10px;
+}
+.form-style{
+    display: inline-block;
+    width: 400px;
+    background-color: #191919;
+    padding: 20px;
+    border: solid aliceblue;
+    color: aliceblue;
+}
+
+.form-style label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-style input{
+    width: 200px;
+    background-color: #272525;
+    color: aliceblue;
+}
+
+
+
+.button3{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    display: inline;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #272525;
+}
 
 
 
