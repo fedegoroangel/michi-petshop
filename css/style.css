@@ -245,7 +245,6 @@ footer a{
 
 .fin{
     text-align: center;
-    align-content: center;
     color: antiquewhite;
     margin-top: 20px;
 }
@@ -337,9 +336,6 @@ footer a{
     color: antiquewhite;
     background-color: #272525;
 }
-
-
-
 
 
 @media (max-width:600px) {
