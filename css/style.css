@@ -1,391 +1,320 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&family=Ubuntu:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&family=Ubuntu:wght@500&display=swap");
 /*roboto , ubuntu, pangolin*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*header*/
-
-header{
-    background-color: #191919;
-    font-family: 'roboto';
-
-
+body header {
+  background-color: #191919;
+  font-family: "roboto";
+}
+body header nav {
+  list-style-type: none;
+  padding: 30px;
+  background-color: #272525;
+}
+body header nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+body header nav ul li {
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+body header nav ul li:hover {
+  background-color: antiquewhite;
+  transition: 1s;
+}
+body header nav ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+body .justify-content-end {
+  text-align: center;
+}
+body main .portada {
+  font-family: "roboto";
+  background-color: #272525;
+  color: antiquewhite;
+  position: relative;
+}
+body main .portada img {
+  display: inline-block;
+  width: 100%;
+  padding: 49px;
+  margin-top: 100px;
+}
+body main .portada h1 {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+body main .portada p {
+  margin: 10px 0px;
+}
+body main .portada-contenedor {
+  display: inline-block;
+  width: 99%;
+  padding: 20px;
+  position: absolute;
+  background-color: #272525;
+  color: antiquewhite;
+  text-align: center;
+}
+body main .portada-contenedor a {
+  text-decoration: none;
+  color: antiquewhite;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline;
+  padding: 3px;
+  font-size: 20px;
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+}
+body main .portada-contenedor a:hover {
+  background-color: antiquewhite;
+  color: #191919;
+  transition: 1s;
+}
+body main .aft1-bg1 {
+  background-image: url(../img/cat-2495495_640.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: left;
+}
+body main .aft1-bg1 p {
+  margin: 50px 0px;
+}
+body main .aft1-bg1 a:hover {
+  background-color: antiquewhite;
+  color: #272525;
+  transition: 1s;
+}
+body main .aft1-bg1 h2 {
+  margin: 50px 0px;
+}
+body main .aft1-bg2 {
+  background-image: url(../img/entretenimiento-perro1.avif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: right;
+}
+body main .aft1-bg2 p {
+  margin: 20px 0px;
+}
+body main .aft1-bg2 a:hover {
+  background-color: antiquewhite;
+  color: #272525;
+  transition: 1s;
+}
+body main .aft1-bg2 h2 {
+  margin: 20px 0px;
+}
+body main .aft1-bg3 {
+  background-image: url(../img/casa-perro-fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  color: bisque;
+  font-size: 30px;
+  text-align: center;
+}
+body main .cards {
+  margin: 30px 0px;
+  text-align: center;
+}
+body main .card-producto {
+  display: inline-block;
+  width: 30%;
+}
+body main .card-producto p, body main .card-producto button {
+  padding: 10px;
+}
+body main .button {
+  border: 2px solid antiquewhite;
+  font-weight: bold;
+  background: #272525;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+body main .button:hover {
+  background-color: antiquewhite;
+  color: #272525;
+}
+body main .button1 {
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  display: inline;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+body main #form {
+  padding: 30px;
+}
+body main .form-style {
+  margin-top: 80px;
+}
+body footer {
+  background-color: #191919;
+  text-decoration: none;
+  padding: 30px 0;
+  font-family: "roboto";
+}
+body footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+body footer li {
+  border-radius: 5px;
+  margin: 10px;
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+body footer a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+body footer .home {
+  display: block;
+  width: 20%;
+  margin-left: 30px;
+}
+body footer .socials {
+  text-align: center;
+  display: block;
+}
+body footer .socials:hover {
+  background-color: antiquewhite;
+  transition: 1s;
+}
+body footer .socials a:hover {
+  color: #272525;
+  transition: 1s;
+}
+body footer .fin {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 20px;
+}
+body .grilla {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9";
+  gap: 15px;
+}
+body .caja {
+  width: 95%;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 5px 10px 10px #272525;
 }
 
-nav{
-    list-style-type: none;
-    padding: 30px;
-    background-color: #272525;
+.carousel-inner {
+  height: 200px;
 }
 
-nav ul{
-    list-style-type: none;
-    text-align: center;
+.carousel-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
 }
 
-nav ul li:hover{
-    background-color: antiquewhite;
-    transition: 1s;
-    color: #191919;
-}
-
-nav :hover {
-    color: #191919;
-}
-
-nav ul li{
-    border: 2px solid antiquewhite;
-    border-radius: 5px;
-    margin: 10px;
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav ul li a{
-    color: antiquewhite;
-    text-decoration: none;
-}
-
-/*main*/
-
-.portada{
-    font-family: 'roboto';
-    background-color: #272525;
-    color: antiquewhite;
-    position: relative;
-
-}
-
-.portada img{
-    display: inline-block;
-    width: 100%;
-    padding: 49px;
-    margin-top: 100px;
-}
-
-.portada h1{
-    font-size: 30px;
-    margin: 10px 0px;
-}
-
-.portada p{
-    margin: 10px 0px;
-}
-.portada-contenedor{
-    display: inline-block;
-    width: 99%;
-    padding: 20px;
-    position: absolute;
-    background-color: #272525;
-    color:antiquewhite;
-    text-align: center;
-}
-
-.portada-contenedor a{
-    text-decoration: none;
-    color: antiquewhite;
-    border-radius: 5px;
-    margin: 5px;
-    display: inline;
-    padding: 3px;
-    font-size: 20px;
-    border: 2px solid antiquewhite;
-    border-radius: 5px;
-}
-
-.portada-contenedor a:hover{
-    background-color: antiquewhite;
-    color: #191919;
-    transition: 1s;
-}
-/*after1 bach ground fijo*/
-
-.aft1-bg1{
-    background-image: url(../img/cat-2495495_640.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding: 80px;
-    color: antiquewhite;
-    font-size: 30px;
-    text-align: left;
-}
-
-
-.aft1-bg1 h2{
-    margin: 50px 0px;
-}
-
-.aft1-bg2 a:hover{
-    background-color: antiquewhite;
-    color: #272525;
-    transition: 1s;
-}
-
-.aft1-bg1 p{
-    margin: 50px 0px;
-}
-
-.aft1-bg1 a:hover{
-    background-color: antiquewhite;
-    color: #272525;
-    transition: 1s;
-}
-.cards{
-    margin: 30px 0px;
-    text-align: center;
-
-}
-
-.card-producto{
-    display: inline-block;
-    width: 30%;
-}
-
-.card-producto p, .card-producto button{
-    padding: 10px;
-}
-
-.button{
-    border: 2px solid antiquewhite;
-    font-weight: bold;
-    background: #272525;
-    color: antiquewhite;
-    border-radius: 10px;
-}
-
-.button:hover{
-    background-color: antiquewhite;
-    color: #272525;
-
-}
-
-.aft1-bg2{
-    background-image: url(../img/entretenimiento-perro1.avif);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding: 80px;
-    color: antiquewhite;
-    font-size: 30px;
-    text-align: right;
-}
-
-.button1{
-    border: 2px solid antiquewhite;
-    border-radius: 5px;
-    display: inline;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: antiquewhite;
-}
-
-.aft1-bg2 h2{
-    margin: 20px 0px;
-}
-
-.aft1-bg2 p{
-    margin: 20px 0px;
-}
-
-/*contacto*/
+/*formulario*/
 #form {
-    padding: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #272525;
+  justify-items: center;
+}
+
+#form div {
+  margin: 10px;
 }
 
 .form-style {
-    margin-top: 80px;
+  display: inline-block;
+  width: 400px;
+  background-color: #191919;
+  padding: 20px;
+  border: solid aliceblue;
+  color: aliceblue;
 }
 
-/*footer*/
-
-footer{
-    background-color:#191919;
-    text-decoration: none;
-    padding: 30px 0;
-    font-family: 'roboto';
+.form-style label {
+  width: 150px;
+  text-align: right;
 }
 
-
-footer ul{
-    list-style-type: none;
-    text-align: center;
+.form-style input {
+  width: 200px;
+  background-color: #272525;
+  color: aliceblue;
 }
 
-footer li{
-    border-radius: 5px;
-    margin: 10px;
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
+.button3 {
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  display: inline;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  color: antiquewhite;
+  background-color: #272525;
 }
 
-footer a{
-    text-decoration: none;
-    color: antiquewhite;
-}
-
-.home {
-    display: block;
-    width: 20%;
-    margin-left: 30px;
-}
-
-.socials{
-    text-align: center;
-    display: block;
-
-}
-.socials ul li:hover{
-    background-color: antiquewhite;
-    transition: 1s;
-}
-
-.socials ul li a:hover{
-    color: #272525;
-    transition: 1s;
-}
-
-.fin{
-    text-align: center;
-    color: antiquewhite;
-    margin-top: 20px;
-}
-
-.grilla{
-    text-align: center;
+@media (max-width: 600px) {
+  .home {
+    display: none;
+  }
+  .socials ul li {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    'area1 area2 area3'
-    'area4 area5 area6'
-    'area7 area8 area9';
-    gap: 15px;
-}
-
-.caja{
-    width: 95%;
-    height: 300px;
-    margin: 10px;
-    box-shadow: 5px 10px 10px #272525;
-}
-
-.aft1-bg3{
-    background-image: url(../img/casa-perro-fondo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding: 100px;
-    color: bisque;
-    font-size: 30px;
-    text-align: center;
-}
-
-/*carrusel*/
-
-.carousel-inner{
-    height: 200px;
-}
-
-.carousel-item img{
-    width: 100%;
-    height: 200px;
-    object-fit: contain;
-    
-}
-
-
-/*formulario*/
-
-#form{
-    display: grid;
-    align-items: center;
     justify-content: center;
-    background-color: #272525;
-    justify-items: center;
+    flex-direction: column;
+    margin: 10px opx;
+  }
+  footer {
+    align-items: center;
+    text-align: center;
+  }
+  .cards {
+    display: none;
+  }
+  .grilla {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6";
+    gap: 15px;
+  }
+  main section.portada img {
+    display: none;
+  }
+  .aft1-bg1 {
+    padding-top: 250px;
+  }
 }
 
-#form div{
-    margin:10px;
-}
-.form-style{
-    display: inline-block;
-    width: 400px;
-    background-color: #191919;
-    padding: 20px;
-    border: solid aliceblue;
-    color: aliceblue;
-}
-
-.form-style label{
-    width: 150px;
-    text-align: right;
-}
-
-.form-style input{
-    width: 200px;
-    background-color: #272525;
-    color: aliceblue;
-}
-
-
-
-.button3{
-    border: 2px solid antiquewhite;
-    border-radius: 5px;
-    display: inline;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: antiquewhite;
-    background-color: #272525;
-}
-
-
-@media (max-width:600px) {
-    .home{
-        display:none;
-    }
-    .socials ul li{
-        display: grid;
-        justify-content: center;
-        flex-direction: column;
-        margin: 10px opx;
-    }
-    footer{
-        align-items: center;
-        text-align: center;
-    }
-
-    .cards{
-        display: none;
-    }
-
-    .grilla{
-        text-align: center;
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-        'area1 area2'
-        'area3 area4'
-        'area5 area6';
-        gap: 15px;
-    }
-    main section.portada img{
-        display: none;
-    }
-
-    .aft1-bg1{
-        padding-top: 250px;
-    }
-}
+/*# sourceMappingURL=style.css.map */
