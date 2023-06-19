@@ -1,0 +1,307 @@
+body{
+
+    header{
+            background-color: #191919;
+            font-family: 'roboto';
+            nav{
+                list-style-type: none;
+                padding: 30px;
+                background-color: #272525; 
+                ul{
+                    list-style-type: none;
+                    text-align: center;
+                    li{
+                        border: 2px solid antiquewhite;
+                        border-radius: 5px;
+                        margin: 10px;
+                        display: inline;
+                        font-size: 20px;
+                        font-weight: bold;
+                        &:hover{
+                            background-color: antiquewhite;
+                            transition: 1s;
+                        }
+                            a{
+                                color: antiquewhite;
+                                text-decoration: none;
+                            }
+                    }
+                }
+            }
+    }
+    .justify-content-end{
+        text-align: center;
+        }
+    main{
+        .portada{
+            font-family: 'roboto';
+            background-color: #272525;
+            color: antiquewhite;
+            position: relative;
+                img{
+                    display: inline-block;
+                    width: 100%;
+                    padding: 49px;
+                    margin-top: 100px;
+                }
+                h1{
+                    font-size: 30px;
+                    margin: 10px 0px;
+                }
+                p{
+                    margin: 10px 0px;
+                }
+        }
+        .portada-contenedor{
+            display: inline-block;
+            width: 99%;
+            padding: 20px;
+            position: absolute;
+            background-color: #272525;
+            color:antiquewhite;
+            text-align: center;
+                a{
+                    text-decoration: none;
+                    color: antiquewhite;
+                    border-radius: 5px;
+                    margin: 5px;
+                    display: inline;
+                    padding: 3px;
+                    font-size: 20px;
+                    border: 2px solid antiquewhite;
+                    border-radius: 5px;
+                    &:hover{
+                        background-color: antiquewhite;
+                        color: #191919;
+                        transition: 1s;
+                    }
+                }
+        }
+        .aft1-bg1{
+            background-image: url(../img/cat-2495495_640.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed; 
+            padding: 80px;
+            color: antiquewhite;
+            font-size: 30px;
+            text-align: left;
+                p{
+                    margin: 50px 0px;
+                }
+                a{
+                    &:hover{
+                        background-color: antiquewhite;
+                        color: #272525;
+                        transition: 1s;
+                        
+                    }
+                }
+                h2{
+                    margin: 50px 0px;
+                }
+        }
+        .aft1-bg2{
+            background-image: url(../img/entretenimiento-perro1.avif);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed; 
+            padding: 80px;
+            color: antiquewhite;
+            font-size: 30px;
+            text-align: right;
+            p{
+                margin: 20px 0px;
+            }
+            a{
+                &:hover{
+                    background-color: antiquewhite;
+                    color: #272525;
+                    transition: 1s;
+                }
+            }
+            h2{
+                margin: 20px 0px;
+            }
+        }
+        .aft1-bg3{
+            background-image: url(../img/casa-perro-fondo.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed; 
+            padding: 100px;
+            color: bisque;
+            font-size: 30px;
+            text-align: center;
+        }
+        .cards{
+            margin: 30px 0px;
+            text-align: center;
+        }
+        .card-producto{
+            display: inline-block;
+            width: 30%;
+        }
+        .card-producto p, .card-producto button{
+            padding: 10px;
+        }
+        .button{
+            border: 2px solid antiquewhite;
+            font-weight: bold;
+            background: #272525;
+            color: antiquewhite;
+            border-radius: 10px;
+            &:hover{
+                background-color: antiquewhite;
+                color: #272525;
+            }
+        }
+        .button1{
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+            display: inline;
+            padding: 7px;
+            font-size: 20px;
+            font-weight: bold;
+            color: antiquewhite;
+        }
+        #form {
+            padding: 30px;
+        }
+        .form-style {
+            margin-top: 80px;
+        }
+        }
+    footer{
+        background-color:#191919;
+        text-decoration: none;
+        padding: 30px 0;
+        font-family: 'roboto';
+        ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        li{
+            border-radius: 5px;
+            margin: 10px;
+            display: inline;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        .home {
+            display: block;
+            width: 20%;
+            margin-left: 30px;
+        }
+        .socials{
+            text-align: center;
+            display: block;
+            &:hover{
+                background-color: antiquewhite;
+                transition: 1s;
+            }
+            a{
+                &:hover{
+                    color: #272525;
+                    transition: 1s;
+                }
+            }
+        }
+        .fin{
+            text-align: center;
+            color: antiquewhite;
+            margin-top: 20px;
+        }
+        
+    }  
+    .grilla{
+            text-align: center;
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area7 area8 area9';
+            gap: 15px;
+    }
+    .caja{
+        width: 95%;
+        height: 300px;
+        margin: 10px;
+        box-shadow: 5px 10px 10px #272525;
+    }
+
+
+
+
+
+
+}
+
+
+
+.carousel-inner{
+    height: 200px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+
+/*formulario*/
+
+#form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #272525;
+    justify-items: center;
+}
+
+#form div{
+    margin:10px;
+}
+.form-style{
+    display: inline-block;
+    width: 400px;
+    background-color: #191919;
+    padding: 20px;
+    border: solid aliceblue;
+    color: aliceblue;
+}
+
+.form-style label{
+    width: 150px;
+    text-align: right;
+}
+
+.form-style input{
+    width: 200px;
+    background-color: #272525;
+    color: aliceblue;
+}
+
+
+
+.button3{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    display: inline;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #272525;
+}
+
+

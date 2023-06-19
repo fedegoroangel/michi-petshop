@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&family=Ubuntu:wght@500&display=swap");
 /*roboto , ubuntu, pangolin*/
+/*signo $main-color:color; se reemplaza el color por el nuevo nombre asignado*/
 * {
   margin: 0;
   padding: 0;
