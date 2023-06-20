@@ -1,38 +1,58 @@
-@media (max-width:600px) {
-    .home{
-        display:none;
-    }
-    .socials ul li{
-        display: grid;
-        justify-content: center;
-        flex-direction: column;
-        margin: 10px opx;
-    }
-    footer{
-        align-items: center;
-        text-align: center;
-    }
+@media (max-width:700px){
+    
+        .home{
+                display:none;
+            }
+            .socials ul li{
+                display: grid;
+                justify-content: center;
+                flex-direction: column;
+                margin: 10px opx;
+            }
+            footer{
+                align-items: center;
+                text-align: center;
+            }
 
-    .cards{
-        display: none;
-    }
+            .cards{
+                display: none;
+            }
+            .grilla{
+                text-align: center;
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: 
+            'area1 area2'
+            'area3 area4'
+            'area5 area6'
+            'area7 area8'
+            'area9 area10';
+            gap: 15px;
+            width: 90%;
+            margin: 5px 5%;
+            }
+            main section.portada img{
+                display: none;
+            }
 
+            .aft1-bg1{
+                padding-top: 250px;
+            }
+};
+
+@media (min-width:700px){
     .grilla{
         text-align: center;
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-        'area1 area2'
-        'area3 area4'
-        'area5 area6';
-        gap: 15px;
-    }
-    main section.portada img{
-        display: none;
-    }
-
-    .aft1-bg1{
-        padding-top: 250px;
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area7 area8 area9';
+            gap: 15px;
+            width: 90%;
+            margin: 5px 5%;
     }
 }

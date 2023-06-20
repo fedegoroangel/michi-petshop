@@ -60,9 +60,8 @@ body main .portada p {
 }
 body main .portada-contenedor {
   display: inline-block;
-  width: 99%;
+  width: 100%;
   padding: 20px;
-  position: absolute;
   background-color: #272525;
   color: antiquewhite;
   text-align: center;
@@ -94,7 +93,7 @@ body main .aft1-bg1 {
   text-align: left;
 }
 body main .aft1-bg1 p {
-  margin: 50px 0px;
+  margin: 20px 0px;
 }
 body main .aft1-bg1 a:hover {
   background-color: antiquewhite;
@@ -102,7 +101,7 @@ body main .aft1-bg1 a:hover {
   transition: 1s;
 }
 body main .aft1-bg1 h2 {
-  margin: 50px 0px;
+  margin: 20px 0px;
 }
 body main .aft1-bg2 {
   background-image: url(../img/entretenimiento-perro1.avif);
@@ -216,14 +215,6 @@ body footer .fin {
   color: antiquewhite;
   margin-top: 20px;
 }
-body .grilla {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9";
-  gap: 15px;
-}
 body .caja {
   width: 95%;
   height: 300px;
@@ -249,7 +240,6 @@ body .caja {
   background-color: #272525;
   justify-items: center;
 }
-
 #form div {
   margin: 10px;
 }
@@ -262,12 +252,10 @@ body .caja {
   border: solid aliceblue;
   color: aliceblue;
 }
-
 .form-style label {
   width: 150px;
   text-align: right;
 }
-
 .form-style input {
   width: 200px;
   background-color: #272525;
@@ -285,7 +273,7 @@ body .caja {
   background-color: #272525;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .home {
     display: none;
   }
@@ -307,14 +295,28 @@ body .caja {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: "area1 area2" "area3 area4" "area5 area6";
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8" "area9 area10";
     gap: 15px;
+    width: 90%;
+    margin: 5px 5%;
   }
   main section.portada img {
     display: none;
   }
   .aft1-bg1 {
     padding-top: 250px;
+  }
+}
+@media (min-width: 700px) {
+  .grilla {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9";
+    gap: 15px;
+    width: 90%;
+    margin: 5px 5%;
   }
 }
 
